@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semoss.org/ontologies/Relation/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual rdf:resource="http://semoss.org/ontologies/Concept/NEWDEVICES"/>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Cost/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Cost/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Acquisition_Cost/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Date/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Date/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:DATE"/>
+			<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:M((REPLACEMENT_TOKEN))d((REPLACEMENT_TOKEN))yyyy"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Acquisition_Date/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Common_Model/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Common_Model/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Common_Model/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Connector_Compatible/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Connector_Compatible/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Connector_Compatible/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Class/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Class/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Device_Class/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Type/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Type/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Device_Type/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/EHR_Compatible/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/EHR_Compatible/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/EHR_Compatible/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Equipment_Nomenclature/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Equipment_Nomenclature/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Equipment_Nomenclature/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Quarter_EOL/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Quarter_EOL/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Fiscal_Quarter_EOL/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Year_EOL/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Year_EOL/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Fiscal_Year_EOL/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Life_Expectancy/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Life_Expectancy/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Life_Expectancy/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Location_1/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Location_1/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Location_1/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Name/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Name/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Name/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Nameplate_Model/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Nameplate_Model/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Nameplate_Model/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Past_Life_Expectancy/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Past_Life_Expectancy/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Past_Life_Expectancy/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/Replacement_Date/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Replacement_Date/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:DATE"/>
+			<AdtlDataType xmlns="http://semoss.org/ontologies/Relation/Contains/" rdf:resource="ADTLTYPE:M((REPLACEMENT_TOKEN))d((REPLACEMENT_TOKEN))yyyy"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/Replacement_Date/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains rdf:about="http://semoss.org/ontologies/Relation/Contains/UniqueID/NEWDEVICES"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/NEWDEVICES_UNIQUE_ROW_ID/NEWDEVICES">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/UniqueID/NEWDEVICES">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual rdf:resource="http://semoss.org/ontologies/Relation/Contains/UniqueID/NEWDEVICES"/>
+		</rdf:Description>
+	</DatatypeProperty>
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">8617</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Cost/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1589</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Acquisition_Date/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1404</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Common_Model/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1312</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Connector_Compatible/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Class/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">152</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Device_Type/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">18</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/EHR_Compatible/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Equipment_Nomenclature/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">396</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Quarter_EOL/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">4</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Fiscal_Year_EOL/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">11</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Life_Expectancy/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">8</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Location_1/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">10</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Manufacturer_Name/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">475</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Nameplate_Model/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1816</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Past_Life_Expectancy/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">2</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Replacement_Date/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">1643</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/UniqueID/NEWDEVICES">
+	<UNIQUE xmlns="http://semoss.org/ontologies/Relation/Contains/">8617</UNIQUE>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:02:06 18:43:03</TIME>
+</rdf:Description>
+
+</rdf:RDF>
